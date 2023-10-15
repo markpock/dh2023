@@ -4,8 +4,9 @@
     height: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
+    --ag-selected-row-background-color: rgba(0, 255, 0, 0.1);
   }
-  
+
   /* Style for the Save Approvals button */
   button {
     background-color: #007bff;

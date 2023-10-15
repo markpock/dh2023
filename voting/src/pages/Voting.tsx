@@ -2,6 +2,7 @@ import React, {useState, useRef, useEffect} from 'react';
 import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
+import './Voting.css'
 
 import { proposal } from '../extern';
 import { GridApi, GridOptions } from 'ag-grid-community';

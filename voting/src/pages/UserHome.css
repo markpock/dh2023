@@ -1,0 +1,33 @@
+/* Overall page formatting */
+.uHBox {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  /* Individual panels within the UserHome component */
+  .panel {
+    background-color: #fff;
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    text-align: center; /* Center content within each panel */
+  }
+  
+  .panel h2 {
+    font-size: 24px; /* Larger heading */
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Add further styling as needed for the Panel component */
+  

@@ -61,7 +61,6 @@ const actionReducer = (_: {}, {id, kind}: Action) => {
 const userApprovalsReducer = (id: number) => (oldMap: Map<number, number[]>, newRows: number[]) => {
     const newMap = new Map(oldMap.entries())
     newMap.set(id, newRows);
-    alert(newMap.get(id))
     return newMap
 }
 
