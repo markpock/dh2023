@@ -1,0 +1,34 @@
+/* Adjust the container style */
+.ag-theme-alpine {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  /* Style for the Save Approvals button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the Return Home link */
+  a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

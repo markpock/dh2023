@@ -77,10 +77,7 @@ const App: React.FC = () => {
 
   const getSelectedRows = (id: number) => {
     const x = userApprovals.get(id)
-    if (x === undefined) {
-        alert("GEHH")
-        return []
-    }
+    if (x === undefined) return []
     return x
   }
 
@@ -88,7 +85,10 @@ const App: React.FC = () => {
             <Routes>
                 <Route path='/' element={<Template />} />
                 <Route path='/home' element={<UserHome dispatch={setSID}/>} />
-                <Route path='/voting' element={<Voting selectedID={selectedID} selectedRows={getSelectedRows(selectedID)} dispatch={dispatchUserApprovals}/>} />
+                <Route path='/voting'
+                       element={ <Voting selectedID={selectedID}
+                            selectedRows={getSelectedRows(selectedID)}
+                            dispatch={dispatchUserApprovals}/>} />
             </Routes>
         </BrowserRouter>
 };
